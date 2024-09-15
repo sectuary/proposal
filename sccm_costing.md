@@ -1,7 +1,5 @@
 
-# Saving the markdown content as a file for the user to download
 
-markdown_content = """
 # **Combined Proposal: SCCM vs. SolarWinds Patch Manager Implementation**
 
 This proposal compares the implementation costs of **SCCM** and **SolarWinds Patch Manager** for managing patching on **150 virtual servers**, including staffing considerations.
@@ -84,9 +82,4 @@ This proposal compares the implementation costs of **SCCM** and **SolarWinds Pat
 - **The ranges provided account for variable costs such as hardware setup and consulting fees.**
 """
 
-# Save markdown content to a file
-file_path = "/mnt/data/SCCM_vs_SolarWinds_Proposal.md"
-with open(file_path, 'w') as file:
-    file.write(markdown_content)
 
-file_path
